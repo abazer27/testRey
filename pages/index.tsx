@@ -99,19 +99,19 @@ const Index: FC = () => {
                                                                 )}
                                                                 {requirement.action ===
                                                                     "change-language" && (
-                                                                    <Button
-                                                                        variant="contained"
-                                                                        color="primary"
-                                                                        size="small"
-                                                                        onClick={
-                                                                            handleChangeLanguage
-                                                                        }
-                                                                    >
-                                                                        {t(
-                                                                            `common:language-${locale}`,
-                                                                        )}
-                                                                    </Button>
-                                                                )}
+                                                                        <Button
+                                                                            variant="contained"
+                                                                            color="primary"
+                                                                            size="small"
+                                                                            onClick={
+                                                                                handleChangeLanguage
+                                                                            }
+                                                                        >
+                                                                            {t(
+                                                                                `common:language-${locale}`,
+                                                                            )}
+                                                                        </Button>
+                                                                    )}
                                                             </ListItemText>
                                                         </ListItem>
                                                     ),

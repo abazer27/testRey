@@ -93,7 +93,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/context/lang.js"
-  ],
+, "pages/pokemon/detail/index.jsx", "pages/pokemon/detail/index.jsx", "pages/pokemon/detail/index.jsx"  ],
   "exclude": [
     "node_modules",
     "test/*",
